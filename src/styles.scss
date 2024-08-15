@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+  border: 1px solid black;
+  border-radius: 4px;
+
+  * {
+    flex: 1;
+  }
+}
+
+.element {
+  padding: 48px;
+  margin: 12px;
+  border: 1px solid black;
+}
+
+.subcontainer {
+  display: flex;
+  gap: 32px;
+}
